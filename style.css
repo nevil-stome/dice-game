@@ -3,9 +3,5 @@
 }
 
 .myfield {
-    display: flex;
-}
-
-.deadfield{
-    display: flex;
+    margin-right: 50px;
 }

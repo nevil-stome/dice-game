@@ -6,19 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="dice.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <button onclick="dice();">サイコロをふる</button>
     <div class="battlefield">
         <div class="myfield">
-            <button onclick="dice();">サイコロをふる</button>
+            
             <p><img id="sainome" src="1,jpg" width="50" height="50" ></p>
-            <p id="mykekka"></p>
-            <p id="myscore"></p>
+            <p id="mykekka">※</p>
+            <p id="myscore">自分残りライフ10</p>
         </div>
         <div class="deadfield">
             <p><img id="sainome" src="1,jpg" width="50" height="50" ></p>
-            <p id="deadkekka"></p>
-            <p id="deadscore"></p>
+            <p id="deadkekka">※</p>
+            <p id="deadscore">敵残りライフ10</p>
         </div>
     </div>
 </body>
