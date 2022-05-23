@@ -8,9 +8,18 @@
     <script src="dice.js"></script>
 </head>
 <body>
-   <button onclick="dice();">サイコロをふる</button>
-    <p><img id="sainome" src="1,jpg" width="50" height="50" ></p>
-   <p id="kekka"></p>
-   <p id="score"></p>
+    <div class="battlefield">
+        <div class="myfield">
+            <button onclick="dice();">サイコロをふる</button>
+            <p><img id="sainome" src="1,jpg" width="50" height="50" ></p>
+            <p id="mykekka"></p>
+            <p id="myscore"></p>
+        </div>
+        <div class="deadfield">
+            <p><img id="sainome" src="1,jpg" width="50" height="50" ></p>
+            <p id="deadkekka"></p>
+            <p id="deadscore"></p>
+        </div>
+    </div>
 </body>
 </html>
